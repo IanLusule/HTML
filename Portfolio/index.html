@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lusule's Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background-color: grey;
+      color: white;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid white;
+      padding: 8px;
+      text-align: left;
+    }
+    .width-50 {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+    }
+    .about-img {
+      width: 100%; /* Adjust the size of the images */
+    }
+    .width-50 img {
+      height: 50vh; /* Set the image height to occupy half the screen height */
+    }
+  </style>
+</head>
+<body>
+  <!-----MENU SECTION------>
+  <div class="main-panel">
+    <div class="container">
+      <div class="width-33 logo">Port <span class="span-col">folio</span></div>
+      <div class="width-66">
+        <nav class="responsive-menu">
+          <a href="#home">
+            <span class="span-col">Home</span>
+          </a>
+          <a href="#about">
+            About me
+          </a>
+          <a href="#portfolio">
+            Portfolio
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <!------MAIN BANNER------>
+    <div class="container" id="home">
+      <span class="span-col">Welcome To lusule.com</span>
+      <h1>Ian lusule <span class="span-col">:</span></h1>
+      <h3><i>
+ 
+      Ian is a Computer Science student Who is passionate about programming.<br>
+      He spents Most of His time doing his assignments, which is mostly coding <br>
+      related. Currently am done away with <br>C, Java, and of course html & css. </i></h3>
+    </div>
+  </div>
+
+  <!------ABOUT ME SECTION------>
+  <div class="main-section bg-lightgrey" id="about">
+    <div class="container">
+      <div class="width-50">
+        <div class="about-us">
+          <h2 class="heading-text">About Me</h2>
+          <h3>Ian Lusule</h3>
+          
+          <p>Hello, my name is Ian Lusule, and I am currently a second-year student at DKUT University. I am pursuing a Bachelor of Science in Computer Science. One of the many modules in my course involves programming, which I find both fascinating and challenging. Through this module, I have gained experience in various programming languages, including C, Java, and Prolog.</p>
+
+      <div class="width-50">
+        <img src="images/about-us1.jpg" class="about-img">
+      </div>
+          <p>My journey into the world of programming started with learning C language. Understanding the fundamentals of programming through C helped me grasp the core principles and techniques required to build software applications. Currently, I am honing my skills in Java, which is widely known for its versatility and robustness in the industry. Additionally, I am also delving into Prolog, a logic programming language that enables intelligent problem-solving.</p>
+
+          <p>Programming has allowed me to develop a logical mindset and enhance my problem-solving abilities. The ability to write efficient and structured code has become a crucial skill that I aim to continuously improve upon. I find joy in the process of breaking down complex problems into smaller, manageable parts and creating elegant solutions for them through programming.</p>
+
+          <p>Throughout my studies, I have actively engaged in hands-on projects and assignments that have further deepened my understanding of programming concepts. I have had the opportunity to work on real-world applications, collaborate with fellow programmers, and gain practical experience in software development.</p>
+
+          <p>With each passing day, I am becoming more passionate about programming and its potential to transform the technological landscape. My goal is to constantly expand my knowledge and skills in different programming languages and frameworks to become a proficient software engineer who can contribute to the development of innovative solutions. I look forward to the challenges and opportunities that lie ahead on my journey as a computer science student.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------PORTFOLIO SECTION------>
+  <div class="main-section" id="portfolio">
+    <div class="container">
+      <h2 class="heading-text">My Portfolio</h2>
+      <div class="gallery">
+        <table>
+          <tr>
+            <th>Skill</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>BMI Calculator</td>
+            <td>Proficient in developing BMI calculators in both C and Java, enabling users to calculate their Body Mass Index for health monitoring.</td>
+          </tr>
+          <tr>
+            <td>Calculator in C</td>
+            <td>Skilled in creating interactive calculators using C, providing users with a versatile tool for mathematical operations.</td>
+          </tr>
+          <tr>
+            <td>Prolog Programming</td>
+            <td>Familiar with Prolog and capable of solving logical problems using this declarative programming language.</td>
+          </tr>
+          <tr>
+            <td>Data Averaging</td>
+            <td>Able to compute accurate averages for sets of data, making data analysis and interpretation more accessible.</td>
+          </tr>
+          <tr>
+            <td>ATM Simulation</td>
+            <td>Capable of designing simple ATM-like programs to accept deposits, check balances, and facilitate fund withdrawals, demonstrating expertise in software development.</td>
+          </tr>
+          <tr>
+            <td>Problem Solving</td>
+            <td>Proficient in identifying and solving complex problems in programming and logic, ensuring efficient and reliable solutions.</td>
+          </tr>
+          <tr>
+            <td>User Interface Design</td>
+            <td>Skilled in creating intuitive user interfaces that enhance user experience and ease of interaction with software applications.</td>
+          </tr>
+          <tr>
+            <td>Algorithm Development</td>
+            <td>Experienced in developing algorithms for various applications, improving efficiency and optimization in computing tasks.</td>
+          </tr>
+          <tr>
+            <td>Code Optimization</td>
+            <td>Able to optimize code for improved performance, ensuring applications run smoothly and efficiently.</td>
+          </tr>
+          <tr>
+            <td>Software Testing</td>
+            <td>Knowledgeable in software testing techniques to identify and rectify issues, ensuring the quality and reliability of software projects.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  
+  <br>
+      <div class="width-66">
+        <nav class="responsive-menu">
+          <a href="#home">
+            <span class="span-col">Home</span>
+          </a>
+          <a href="#about">
+            About me
+          </a>
+          <a href="#portfolio">
+            Portfolio
+          </a>
+        </nav>
+      </div>
+</body>
+</html>
